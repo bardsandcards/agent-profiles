@@ -24,5 +24,5 @@ npm run dev      # serve locally
 npm run deploy   # needs CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID
 ```
 
-The deploy token needs Workers Scripts: Edit on the account, plus Workers
-Routes: Edit and DNS: Edit on the `bardsandcards.com` zone.
+The deploy token needs edit access to Workers on the account, plus Workers
+Routes: Edit on the `bardsandcards.com` zone to attach the domain.
