@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "agent-profiles",
+  "compatibility_date": "2026-11-11",
+  // Static files only: there is no Worker script.
+  "assets": { "directory": "./public" },
+  "routes": [{ "pattern": "agents.bardsandcards.com", "custom_domain": true }],
+  "workers_dev": false,
+  "preview_urls": false
+}
